@@ -5,7 +5,11 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
 
-    All: {{ site.pages }}<br>
+    All:<br>
+    {%- for page in site.pages -%}
+      {{page}}<br>
+    {%- endfor -%}
+    -- <br>
     Default: {{ default_paths }}<br>
     Pages: {{ page_paths }}<br>
 
