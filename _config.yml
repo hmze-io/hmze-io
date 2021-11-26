@@ -16,13 +16,13 @@ minima:
   # generate social links in footer
   social_links:
     twitter: hmzepodcast
+    linkedin: hmze
     # github:  jekyll
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
     # instagram: jekyll
-    # linkedin: jekyll
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
@@ -50,6 +50,7 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
  - sections/about.md
+ - sections/toolbox.md
 
 # Build settings
 theme: minima
