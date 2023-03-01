@@ -1,60 +1,16 @@
-title: HMZE (Humanize)
-author:
-  name: Andreas Wolff, Sebastian Heide-Meyer zu Erpen und André Neubauer 
-  email: hmzepodcast@googlemail.com
-description: Technology is a People Business
+website_url: /
+title: HMZE
+description: In diesem Podcast unterhalten sich Andreas Wolff, Sebastian Heide-Meyer zu Erpen und André Neubauer über Technologie und Leadership, denn ”Technology is a People Business”.
+feed_url: feed/
+feed_lang: de
+feed_since: 
+feed_last:
+logo: /assets/img/logo.jpeg
+feed_owner: Andreas Wolff, Sebastian Heide-Meyer zu Erpen und André Neubauer
+feed_contact: hmzepodcast@googlemail.com
 
-show_excerpts: false # set to true to show excerpts on the homepage
-
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%b %-d, %Y"
-  skin: dark
-
-
-  # generate social links in footer
-  social_links:
-    twitter: hmzepodcast
-    linkedin: hmze
-    # github:  jekyll
-    # devto: jekyll
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-    # GitLab instances
-    # gitlab:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-header_pages:
- - sections/about.md
- - sections/toolbox.md
-
-# Build settings
-theme: minima
+remote_theme: devpg/minimal
+color-scheme: dark
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-remote-theme      
