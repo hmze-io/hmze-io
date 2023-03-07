@@ -30,3 +30,14 @@ section {
   border-bottom-width: 0 !important;
   margin: 0 !important;
 }
+
+.logo {
+  height: 38px;
+}
+
+.podcast-player-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 10px;
+}
