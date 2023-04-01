@@ -8,7 +8,7 @@
     <title>{{ site.title }}</title>
     <language>{{ site.feed_lang }}</language>
     <pubDate>{{ site.feed_since }}</pubDate>
-    <lastBuildDate>{{ site.feed_last }}</lastBuildDate>
+    <lastBuildDate>{{ site.posts[0].date | date: "%a, %d %b %Y %H:%M %z" }}</lastBuildDate>
     <description>{{ site.description }}</description>
     <link>{{ site.website_url | absolute_url }}</link>
     <generator>{{ site.website_url | absolute_url }}</generator>
